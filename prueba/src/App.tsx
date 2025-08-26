@@ -23,6 +23,6 @@ export default function App() {
       listener.subscription.unsubscribe()
     }
   }, [])
-  return user ? <Menu user={user} setUser={setUser} /> : <Login setUser={setUser} />
+  return user ? <Menu user={user} setUser={setUser} ><p>Este es el menu de inicio</p></Menu> : <Login setUser={setUser} />
 }
 
